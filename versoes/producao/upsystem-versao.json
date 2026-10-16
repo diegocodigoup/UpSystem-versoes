@@ -1,17 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-10-14T16:10:58",
+  "publicadoEm": "2026-10-16T18:50:52",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.18.1",
+      "versao": "1.1.18.2",
       "urls": [
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.1\/UpSystem-1.1.18.1.zip"
+        "UpSystem-1.1.18.2.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.2\/UpSystem-1.1.18.2.zip"
       ],
-      "sha256": "26d5804d3bdfcc6c2bb8375b2d7382fbf068fece693b0949317e30c17fd0b9b5",
-      "tamanho": 77692274,
+      "sha256": "bb37f96a34702b3aee6af82527a0eb66454642256f9e76339774641f444dadac",
+      "tamanho": 75282155,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "Atualizador automatico do sistema"
+      "notas": "Atualizador Automático do Sistema"
     }
   }
 }
