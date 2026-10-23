@@ -1,18 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-10-17T10:51:52",
+  "publicadoEm": "2026-10-23T12:03:02",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.18.3",
+      "versao": "1.1.18.4",
       "urls": [
-        "UpSystem-1.1.18.3.zip",
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.3\/UpSystem-1.1.18.3.zip"
+        "UpSystem-1.1.18.4.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.4\/UpSystem-1.1.18.4.zip"
       ],
-      "sha256": "c18b34b84024a9f93eb02bbbad9f902f423e132d3325e3c5e6499925a234f3a5",
-      "tamanho": 75281465,
+      "sha256": "91fe4be72cd7d5dda7bec1d3998f8f7905f1a27459db2cd4704cf56bd8a59732",
+      "tamanho": 75293698,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "Configuração no usuário para não abrir tela ao vender produto de restaurante"
+      "notas": "Formas de pagamento por cliente, correções plano de contas, avisar para configurar ip fixo no servidor, outras melhorias e correções."
     }
   }
 }
