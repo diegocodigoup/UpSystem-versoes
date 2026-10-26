@@ -1,18 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-10-23T12:03:02",
+  "publicadoEm": "2026-10-26T19:37:06",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.18.4",
+      "versao": "1.1.18.5",
       "urls": [
-        "UpSystem-1.1.18.4.zip",
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.4\/UpSystem-1.1.18.4.zip"
+        "UpSystem-1.1.18.5.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.5\/UpSystem-1.1.18.5.zip"
       ],
-      "sha256": "91fe4be72cd7d5dda7bec1d3998f8f7905f1a27459db2cd4704cf56bd8a59732",
-      "tamanho": 75293698,
+      "sha256": "bea6520b98ae44613a4cb2ef042bf70fb03a54d1d4b217171144e045fdda35fb",
+      "tamanho": 75307152,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "Formas de pagamento por cliente, correções plano de contas, avisar para configurar ip fixo no servidor, outras melhorias e correções."
+      "notas": "- Plano de contas em Outras Movimentações (com correção).\r\n- Transferência de estoque: selecionar várias transferências, agrupar os itens e emitir uma única nota.\r\n- Importação de XML de NF-e: aceita protocolo de autorização sem tpAmb."
     }
   }
 }
