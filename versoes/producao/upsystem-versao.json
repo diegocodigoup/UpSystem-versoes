@@ -1,18 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-10-26T19:37:06",
+  "publicadoEm": "2026-11-12T12:52:52",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.18.5",
+      "versao": "1.1.19.0",
       "urls": [
-        "UpSystem-1.1.18.5.zip",
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.18.5\/UpSystem-1.1.18.5.zip"
+        "UpSystem-1.1.19.0.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.0\/UpSystem-1.1.19.0.zip"
       ],
-      "sha256": "bea6520b98ae44613a4cb2ef042bf70fb03a54d1d4b217171144e045fdda35fb",
-      "tamanho": 75307152,
+      "sha256": "2c79e4cffe0edeab748681429749f228a810f15b85a25f908d9a5810cfa7bfab",
+      "tamanho": 75379816,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "- Plano de contas em Outras Movimentações (com correção).\r\n- Transferência de estoque: selecionar várias transferências, agrupar os itens e emitir uma única nota.\r\n- Importação de XML de NF-e: aceita protocolo de autorização sem tpAmb."
+      "notas": "Novidades:\n- Nova tela de movimentações por origem: mostra recebimentos, movimentações de estoque, plano de contas e movimentações de contas de um registro\n- Reforma tributária: monofasia IBS\/CBS e ajustes\n- Plano de contas na conciliação bancária\n- Configuração para desativar a inutilização de NF-e\n- Ordem de serviço: valida o limite de crédito e grava a comissão do item\n- Balcão: CPF referenciado e consulta aos pedidos anteriores do cliente\n- TEF no app e na hotelaria\n- Importação de NF-e passa a preencher a observação\n- Celular do cliente na grid de boletos\n- Ao fazer logoff no PDV, corrige movimentações de estoque com erro\n\nCorreções:\n- Baixa indevida ao cancelar borderô pela conciliação bancária\n- Cancelar a baixa do boleto volta o recebimento para em aberto\n- Erro ao cancelar o faturamento de uma venda e faturar de novo com outra forma de pagamento\n- Duplicidade ao duplicar recebimento entre empresas\n- Custo médio duplicado ao gerar ordem de produção\n- Preço da unidade principal na tela de venda\n- Tabela de preço arredondada no balcão e no PDV novo\n- Lentidão ao abrir o caixa\n- Quarto travado na hospedagem\n- Ajustes na abertura de comanda (clubes) e na NFS-e\n"
     }
   }
 }
