@@ -1,18 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-11-16T21:23:23",
+  "publicadoEm": "2026-11-23T19:31:41",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.19.1",
+      "versao": "1.1.19.3",
       "urls": [
-        "UpSystem-1.1.19.1.zip",
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.1\/UpSystem-1.1.19.1.zip"
+        "UpSystem-1.1.19.3.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.3\/UpSystem-1.1.19.3.zip"
       ],
-      "sha256": "45c017dcac6a5afa3c26a94da646b4b6f4cad7af53e72148f925d85eb85e7ff4",
-      "tamanho": 75386746,
+      "sha256": "76635f7da6185f45baf46579e21d6ef64e26f6d6666d2b1b0044434d38dd926f",
+      "tamanho": 75394035,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "- Composição do preço: mostra o lucro real ao alterar o preço de venda a aplicar.\n- CST 10: permite informar redução da BC do ST no produto e no grupo de tributação; a nota passa a calcular com essa redução.\n- DIFAL para consumidor final calculado pelo endereço de entrega.\n- Conversão de unidade: a empresa passa a ser opcional (sem empresa vale para todas), na venda e na entrada.\n- Negociar financeiro da nota fiscal: escolha da forma de pagamento (usa a do cliente quando houver) e parcelas geradas conforme essa forma.\n- Saldo de Contas: lentidão ao filtrar e selecionar contas corrigida.\n- Borderô de Cartão de Crédito: permite marcar recebimentos para baixa ao importar a planilha do cartão."
+      "notas": "- Devolução: chave de acesso referenciada no item da nota de devolução.\n- Nota de Serviço: corrigido erro (access violation) ao emitir e cálculo da Reforma Tributária no faturamento.\n- Ordem de Serviço: corrigido erro (access violation).\n- Ordem de Produção: seleção de lotes do insumo não soma mais a quantidade em dobro; restante acompanha a quantidade do item e permite lançamento parcial.\n- Produto: bloqueado informar o próprio produto como insumo.\n- PDV OFF: fechamento de caixa com conferência não duplica mais o saldo no servidor.\n- PDV: parcelas do finalizar a prazo não aceitam vencimento anterior à emissão.\n- PDV Touch: foco vai para o campo do produto ao incluir.\n- Finalizar Pedido: troca de cliente passa a validar o financeiro informado.\n- Nota Fiscal: garantido que o XML atualizado pertence à nota.\n- Transferência de Estoque: filtros de data, empresa origem e empresa destino na grid.\n- CIOT Fracionado: configuração passa a aparecer."
     }
   }
 }
