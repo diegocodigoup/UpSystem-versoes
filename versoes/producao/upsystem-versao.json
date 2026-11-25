@@ -1,18 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-11-23T19:31:41",
+  "publicadoEm": "2026-11-25T14:05:50",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.19.3",
+      "versao": "1.1.19.4",
       "urls": [
-        "UpSystem-1.1.19.3.zip",
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.3\/UpSystem-1.1.19.3.zip"
+        "UpSystem-1.1.19.4.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.4\/UpSystem-1.1.19.4.zip"
       ],
-      "sha256": "76635f7da6185f45baf46579e21d6ef64e26f6d6666d2b1b0044434d38dd926f",
-      "tamanho": 75394035,
+      "sha256": "0559089d268f4cdef036ed84451b0d4a51296039a42ff5b0af23f43dd2a038e1",
+      "tamanho": 75396734,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "- Devolução: chave de acesso referenciada no item da nota de devolução.\n- Nota de Serviço: corrigido erro (access violation) ao emitir e cálculo da Reforma Tributária no faturamento.\n- Ordem de Serviço: corrigido erro (access violation).\n- Ordem de Produção: seleção de lotes do insumo não soma mais a quantidade em dobro; restante acompanha a quantidade do item e permite lançamento parcial.\n- Produto: bloqueado informar o próprio produto como insumo.\n- PDV OFF: fechamento de caixa com conferência não duplica mais o saldo no servidor.\n- PDV: parcelas do finalizar a prazo não aceitam vencimento anterior à emissão.\n- PDV Touch: foco vai para o campo do produto ao incluir.\n- Finalizar Pedido: troca de cliente passa a validar o financeiro informado.\n- Nota Fiscal: garantido que o XML atualizado pertence à nota.\n- Transferência de Estoque: filtros de data, empresa origem e empresa destino na grid.\n- CIOT Fracionado: configuração passa a aparecer."
+      "notas": "- Hotelaria: corrigido o filtro de datas na ocupação dos apartamentos, permitindo o check-out de hospedagens em andamento.\n- Devolução de venda: passa a aceitar NFC-e.\n- Carga: cria as parcelas da devolução de venda (NF) e as parcelas que faltavam nos pedidos vindos do app; tabela de preço no item do pedido de venda comum.\n- Veículo usado (BA): permite usar o CST 40 e ainda abater a base de cálculo do PIS\/COFINS.\n- Base do Windows: mostra o serial do HD."
     }
   }
 }
