@@ -1,18 +1,18 @@
 {
   "formato": 1,
-  "publicadoEm": "2026-11-25T14:05:50",
+  "publicadoEm": "2026-11-26T16:09:09",
   "pacotes": {
     "upsystem": {
-      "versao": "1.1.19.4",
+      "versao": "1.1.19.5",
       "urls": [
-        "UpSystem-1.1.19.4.zip",
-        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.4\/UpSystem-1.1.19.4.zip"
+        "UpSystem-1.1.19.5.zip",
+        "https:\/\/github.com\/diegocodigoup\/UpSystem-versoes\/releases\/download\/v1.1.19.5\/UpSystem-1.1.19.5.zip"
       ],
-      "sha256": "0559089d268f4cdef036ed84451b0d4a51296039a42ff5b0af23f43dd2a038e1",
-      "tamanho": 75396734,
+      "sha256": "16b49e06312fe22b14b3411a9a778881e3c9518ed444a576500556424264226e",
+      "tamanho": 75300106,
       "obrigatoria": false,
       "exigeScriptBanco": true,
-      "notas": "- Hotelaria: corrigido o filtro de datas na ocupação dos apartamentos, permitindo o check-out de hospedagens em andamento.\n- Devolução de venda: passa a aceitar NFC-e.\n- Carga: cria as parcelas da devolução de venda (NF) e as parcelas que faltavam nos pedidos vindos do app; tabela de preço no item do pedido de venda comum.\n- Veículo usado (BA): permite usar o CST 40 e ainda abater a base de cálculo do PIS\/COFINS.\n- Base do Windows: mostra o serial do HD."
+      "notas": "- Controle de Reservas: cancelamento de reservas em lote, inclusive das que não têm financeiro.\n- NF-e de transferência de estoque: corrigida a conversão de unidade.\n- NF-e\/NFC-e: ajuste do vProdLiq no XML (NT 2026.008).\n- Emissão de nota de pedidos faturados: atualiza o documento dos recebimentos a prazo em aberto; corrigido erro no item do pedido.\n- Balança: lançamento da taxa de serviço.\n- Venda: ajuste ao alterar o preço na busca de variação e corrigido erro ao abrir a tela de venda."
     }
   }
 }
